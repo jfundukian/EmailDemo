@@ -12,6 +12,8 @@
 		04C290DF1D479A2D00B6E398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C290DD1D479A2D00B6E398 /* Main.storyboard */; };
 		04C290E11D479A2D00B6E398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C290E01D479A2D00B6E398 /* Assets.xcassets */; };
 		04C290E41D479A2D00B6E398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C290E21D479A2D00B6E398 /* LaunchScreen.storyboard */; };
+		04C290EC1D479B7B00B6E398 /* feedbackControlTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C290EB1D479B7B00B6E398 /* feedbackControlTableViewController.swift */; };
+		04C290EE1D479E7E00B6E398 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C290ED1D479E7E00B6E398 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		04C290E01D479A2D00B6E398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C290E31D479A2D00B6E398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C290E51D479A2D00B6E398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C290EB1D479B7B00B6E398 /* feedbackControlTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = feedbackControlTableViewController.swift; sourceTree = "<group>"; };
+		04C290ED1D479E7E00B6E398 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C290EE1D479E7E00B6E398 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +43,7 @@
 		04C290CD1D479A2D00B6E398 = {
 			isa = PBXGroup;
 			children = (
+				04C290ED1D479E7E00B6E398 /* MessageUI.framework */,
 				04C290D81D479A2D00B6E398 /* Email */,
 				04C290D71D479A2D00B6E398 /* Products */,
 			);
@@ -60,6 +66,7 @@
 				04C290E01D479A2D00B6E398 /* Assets.xcassets */,
 				04C290E21D479A2D00B6E398 /* LaunchScreen.storyboard */,
 				04C290E51D479A2D00B6E398 /* Info.plist */,
+				04C290EB1D479B7B00B6E398 /* feedbackControlTableViewController.swift */,
 			);
 			path = Email;
 			sourceTree = "<group>";
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C290DC1D479A2D00B6E398 /* ViewController.swift in Sources */,
+				04C290EC1D479B7B00B6E398 /* feedbackControlTableViewController.swift in Sources */,
 				04C290DA1D479A2D00B6E398 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
